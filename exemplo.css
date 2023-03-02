@@ -1,0 +1,24 @@
+.conteiner{
+    display: flex;
+    flex-direction: row; /*alinha horizontal*/
+    flex-direction: row-reverse;
+flex-direction: column;  /*coluna*/
+flex-direction: column-reverse; /*colna de baixo para cima*/
+flex-wrap: wrap; /*aloca de acordo com o espaço definifo*/
+
+justify-content: center;
+justify-content: space-between;
+justify-content: space-evenly;
+justify-content: space-around;
+align-items:center;
+ /*alinha  na tela se baseando na posiçao do Flex-direction*/
+ gap: 20px 10px;
+ 
+}
+.ex{
+    flex-grow: 2px; /*ele da prioridade de espaço na tela para a class */
+}
+
+@media(min-wdth: 768px){
+
+}/*resposividade, adaptita tamndo para 768PX */
